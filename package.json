@@ -1,0 +1,10 @@
+{
+  "name": "streamer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Matthew Dickie <matt.jdickie007@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "multiparty": "^4.2.1"
+  }
+}
