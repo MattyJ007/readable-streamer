@@ -1,3 +1,5 @@
+'use strict'
+
 const uuid = require('uuid/v4')
 
 function randomDOB (low = new Date('1903-01-02').getTime(), high = new Date().getTime()) {

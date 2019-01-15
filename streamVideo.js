@@ -1,3 +1,5 @@
+'use strict'
+
 const { stat, createReadStream } = require('fs')
 const { promisify } = require('util')
 
