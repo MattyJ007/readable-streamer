@@ -1,9 +1,14 @@
 {
   "name": "streamer",
   "version": "1.0.0",
-  "main": "index.js",
-  "author": "Matthew Dickie <matt.jdickie007@gmail.com>",
+  "description": "Server that provides routes that stream different types of content",
+  "repository": "git@github.com:MattyJ007/readable-streamer.git",
+  "author": "Matthew Dickie <matthew.dickie@jembi.org>",
   "license": "MIT",
+  "scripts": {
+    "start": "node ./index.js",
+    "lint": "standard --fix"
+  },
   "dependencies": {
     "multiparty": "^4.2.1",
     "readable-stream": "^3.1.1",
